@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.vite/
+
+# Extension signing key — never commit this
+*.pem
+key.pem
+
+# Packaged extensions
+*.crx
+*.xpi
+*.zip
+web-ext-artifacts/
+
+# Environment / local config
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor directories
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# AI assistant config (may contain local paths or session state)
+.claude/
+
+# Test coverage
+coverage/
